@@ -1,5 +1,6 @@
 # ELM402_emulator
-ELM402 rotary decoder software emulator written in C. Hardware Microchip PIC mcu's.
+ELM402 rotary decoder software emulator written in C.
+Reqiures Microchip PIC mcu's.
 
 
 This is ELM402 rotary encoder software emulator.
