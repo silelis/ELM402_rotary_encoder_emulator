@@ -1,9 +1,10 @@
 # ELM402_emulator
-ELM402 rotary decoder software emulator written in C.
+ELM402 rotary encoder software emulator written in C.
 Reqiures Microchip PIC mcu's.
 
 
 This is ELM402 rotary encoder software emulator.
+The ELM402 is an 8 pin integrated circuit that is used to convert the signals from a rotary encoder into a series of up and down output pulses.
 
 Code is written in C in CCS PIC compiler (https://www.ccsinfo.com/).
 
