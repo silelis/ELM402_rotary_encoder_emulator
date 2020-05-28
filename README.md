@@ -9,14 +9,14 @@ The ELM402 is an 8 pin integrated circuit that is used to convert the signals fr
 Code is written in C in CCS PIC compiler (https://www.ccsinfo.com/).
 
 Easily portable to:
-- 12F683
-- 12F609
-- 12F615
-- 12F629
-- 12F675
-- 12F1571
-- 12LF1571
-- 12F1572
-- 12LF1572
+- 12F683 (pin2pin compatible with ELM402)
+- 12F609 (pin2pin compatible with ELM402)
+- 12F615 (pin2pin compatible with ELM402)
+- 12F629 (pin2pin compatible with ELM402)
+- 12F675 (pin2pin compatible with ELM402)
+- 12F1571 (pin2pin compatible with ELM402)
+- 12LF1571 (pin2pin compatible with ELM402)
+- 12F1572 (pin2pin compatible with ELM402)
+- 12LF1572 (pin2pin compatible with ELM402)
 
 Developer: Dawid "SileliS" Bankowski
