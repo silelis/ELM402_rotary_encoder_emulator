@@ -58,46 +58,6 @@
 #define ELM402_pulse_width_additional_time  1800  //uS
 
 
-//#if device=="PIC18F4520"
-//   #warning device
-//   #warning OSCCAL exists getenv("SFR_VALID:OSCCAL")
-//   #if getenv("SFR_VALID:OSCCAL")!=0
-//      #warning at getenv("SFR:OSCCAL")
-//   #endif
-// 
-//
-//    #warning   RCON getenv("SFR:RCON")
-//    #byte      RCON = getenv("SFR:RCON")
-//    #warning   BOR getenv("SFR:RCON").0
-//    #bit       BOR = RCON.0
-//    
-//    
-//   //#device ADC=10
-//   #use delay(internal=4000000)
-//   #FUSES nomclr, BROWNOUT
-//
-//   #define rotoencoder_port_interrupt INT_RB
-//   
-//   /*ELM402 emulation definitions*/
-//   //input definition
-//   #define signal_B           PIN_B4
-//   #define signal_A           PIN_B5
-//  
-//   #define pulseWidth         PIN_B1
-//   #define outputInvert       PIN_B2
-//   
-//   //output definition
-//   #define output_UP           PIN_C6
-//   #define output_DOWN         PIN_C7
-//   
-//   #ifndef _use_UP_DOWN_ 
-//      #WARNING "UART OUTPUT"
-//      #use rs232(baud=9600,parity=N,xmit=output_UP,rcv=output_DOWN,bits=8)
-//   #endif
-//   /*ELM402 emulation definitions*/
-//      
-//#endif
-
 #if device=="PIC12F629" || device=="PIC12F675" || device=="PIC12F1571" || device=="PIC12LF1571" || device=="PIC12F1572" || device=="PIC12LF1572"
    #warning device
    #warning OSCCAL exists getenv("SFR_VALID:OSCCAL")
@@ -121,7 +81,7 @@
    #warning   PCON getenv("SFR:PCON")
    #byte      PCON = getenv("SFR:PCON")
    #warning   BOR getenv("SFR:PCON").0
-   #bit       BOD = PCON.0 //w tym chipie jest "BOR", ale dla u³atwienia kodu da³em BOD
+   #bit       BOD = PCON.0 //w tym chipie jest "BOR", ale dla uÂ³atwienia kodu daÂ³em BOD
 #endif
 
 #if device=="PIC12F683" || device=="PIC12F629" || device=="PIC12F675" || device=="PIC12F609" || device=="PIC12F615" || device=="PIC12F1571" || device=="PIC12LF1571" || device=="PIC12F1572" || device=="PIC12LF1572"
